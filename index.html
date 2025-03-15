@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Silvestre's Shop - ¡La mejor tienda online para adoptar gatos!
+    </title>
+    <style>
+      body {
+        font-family: Comic sans-serif, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-image: url("https://img.freepik.com/foto-gratis/fondo-material-tela-piel-natural_53876-143070.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 20vh;
+        margin: 0;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        header h1 {
+          margin: 0;
+          font-size: 2.5em;
+        }
+      }
+      header img {
+        width: 1000px;
+        height: auto;
+      }
+
+      nav {
+        background-color: #176d0c;
+        color: white;
+        padding: 10px 0;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+      }
+      nav ul li {
+        flex: 1;
+        text-align: center;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 10px 0;
+      }
+      nav ul li a:hover {
+        background-color: #129206;
+      }
+      main {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .gato {
+        width: 30%;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .gato img {
+        width: 100%;
+        height: auto;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Bienvenidos a Silvestre's Shop</h1>
+      <p>Encuentra los mejores y tiernos gatos para adoptar</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Catálogo</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="gato">
+        <img src="images/Silvestre.jpg.jpg" alt="Gato 1" style="width: 40%" />
+
+        <h3>Silvestre</h3>
+        <p>
+          Gato mimado y cariñoso de color negro y blanco. ¡Esta castrado y listo
+          para adoptar!.
+        </p>
+        <p><strong>¡Listo para adoptar!</strong></p>
+        <button>Solicitar adopción</button>
+      </div>
+
+      <div class="gato">
+        <img src="images/Firulais.jpg" alt="Gato 2" style="width: 35%" />
+        <h3>Firulais</h3>
+        <p>
+          Es un ¿perro? en un sitio de gatos. Que novedoso. Esta listo para
+          adoptar y esta castrado.
+        </p>
+        <p><strong>????</strong></p>
+        <button>Solicitar adopción</button>
+      </div>
+
+      <div class="gato">
+        <img src="images/Cosmico.jpg" alt="Gato 3" style="width: 40%" />
+        <h3>Cósmico</h3>
+        <p>
+          Gato de 3 meses y muy juguetón de pelaje gris. ¡Aún no esta castrado
+          pero esta listo para adoptar!.
+        </p>
+        <p><strong>¡Listo para adoptar!</strong></p>
+        <button>Solicitar adopción</button>
+      </div>
+    </main>
+
+    <footer>
+      <address>
+        <p>Dirección: Av Primavera 1825, Lima, Perú</p>
+        <p>Email: contacto@silvestreshop.com</p>
+        <p>Teléfono: +123 456 789</p>
+      </address>
+      <small
+        >&copy; 2025 SILVESTRE'S SHOP. Todos los derechos reservados.</small
+      >
+    </footer>
+  </body>
+</html>
